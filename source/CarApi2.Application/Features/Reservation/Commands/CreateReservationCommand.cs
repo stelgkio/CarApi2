@@ -164,7 +164,7 @@ namespace CarApi2.Application.Features.Reservations.Commands
 
                 };
             };
-            logger.LogInformation($"No availabe car for reservation for date: {reservation.ReservationDate} start: {reservation.StartDuration} end:{reservation.EndDuration}  ");
+            logger.LogInformation($"There is no availabe car for reservation for date: {reservation.ReservationDate} start: {reservation.StartDuration} end:{reservation.EndDuration}  ");
             return null;
         }
 

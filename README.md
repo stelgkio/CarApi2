@@ -9,9 +9,6 @@
   </big>
 </p>
 <p align="center">
-  A clean template based on asp.net web api with DB and Messaging pack
-</p>
-<p align="center">
 <a href="">
   <img src="https://img.shields.io/badge/version-0.1-blue.svg" alt="version">
 </a>
@@ -20,7 +17,7 @@
 </p>
 
 ## About
-Simple project
+Car reservesion project
 
 
 ## Using

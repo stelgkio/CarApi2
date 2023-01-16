@@ -25,11 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{A7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarApi2.Services.System", "source\CarApi2.Services.System\CarApi2.Services.System.csproj", "{3688383C-C757-4D39-AADB-A6260CB6412E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carapi2.Core.Api", "Carapi2.Core.Api\Carapi2.Core.Api.csproj", "{C92C16E3-6F68-4B0B-B966-F39F27E89647}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carapi2.Core.Api", "tests\Carapi2.Core.Api\Carapi2.Core.Api.csproj", "{C92C16E3-6F68-4B0B-B966-F39F27E89647}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorApi2.Application.Test", "CorApi2.Application.Test\CorApi2.Application.Test.csproj", "{70D52B78-2A30-45E4-A4C1-9FF21FEFF6D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CorApi2.Application.Test", "tests\CorApi2.Application.Test\CorApi2.Application.Test.csproj", "{70D52B78-2A30-45E4-A4C1-9FF21FEFF6D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carapi2.Domain.Test", "Carapi2.Domain.Test\Carapi2.Domain.Test.csproj", "{50B38A02-97A2-44FE-8E1E-0BF092523AB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carapi2.Domain.Test", "tests\Carapi2.Domain.Test\Carapi2.Domain.Test.csproj", "{50B38A02-97A2-44FE-8E1E-0BF092523AB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

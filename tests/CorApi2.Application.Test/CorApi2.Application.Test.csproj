@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\source\CarApi2.Application\CarApi2.Application.csproj" />
+    <ProjectReference Include="..\..\source\CarApi2.Application\CarApi2.Application.csproj" />
   </ItemGroup>
 
 </Project>

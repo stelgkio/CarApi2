@@ -29,7 +29,7 @@ namespace CorApi2.Application.Test
             var handler = new CreateReservationCommandHandler(repoMock.Object, logger.Object, timeServiceMock.Object);
             Car car = new Car("Test", "TestModel");
 
-            var data = new CreateReservationCommand(new DateTime(2023, 1, 15, 10, 0, 0), 60);
+            var data = new CreateReservationCommand(new DateTime(2099, 1, 15, 10, 0, 0), 60);
 
             repoMock.Setup(c => c.GetAllCars(CancellationToken.None));
                
@@ -50,7 +50,7 @@ namespace CorApi2.Application.Test
             Car car = new Car("Test", "TestModel");
             IEnumerable<Car> cars= new List<Car>() { car };
             List<Reservation> reservations = new List<Reservation>() ;
-            var data = new CreateReservationCommand(new DateTime(2023, 1, 15, 10, 0, 0), 60);
+            var data = new CreateReservationCommand(new DateTime(2099, 1, 15, 10, 0, 0), 60);
 
             timeServiceMock.Setup(x=>x.GetTimeSpan(It.IsAny<TimeOnly>())).Returns(TimeSpan.FromMinutes(400));
             timeServiceMock.Setup(x => x.GetEndOfReservation(It.IsAny<TimeOnly>(),It.IsAny<int>())).Returns(TimeSpan.FromMinutes(450));
